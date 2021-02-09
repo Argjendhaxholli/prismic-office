@@ -1,10 +1,8 @@
 const withTM = require('next-transpile-modules')(['next-slicezone', 'essential-slices']);
+const withCSS = require('@zeit/next-css');
+module.exports = withTM(withCSS({
+    cssLoaderOptions: {
+        url: false
+    }
+}));
 
-// module.exports = withTM();
-
-// next.config.js
-module.exports = {
-    images: {
-        domains: ['images.prismic.io'],
-    },
-}

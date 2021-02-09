@@ -35,6 +35,14 @@
             "constraint": {},
             "thumbnails": []
           }
+        },
+        "postLink": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
         }
       },
       "items": {}
